@@ -1,4 +1,7 @@
+import React from 'react';
 import { AppRegistry } from 'react-native';
-import App from './App';
+import App from './build/app';
 
-AppRegistry.registerComponent('tsDemo', () => App);
+const RNTypeScript = () => <App />
+
+AppRegistry.registerComponent('tsDemo', () => RNTypeScript);
